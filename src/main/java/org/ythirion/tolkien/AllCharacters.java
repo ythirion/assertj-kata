@@ -35,4 +35,8 @@ public class AllCharacters {
     public static Seq<Character> hobbits() {
         return fellowshipOfTheRing.filter(c -> c.getRace().equals(HOBBIT));
     }
+
+    public static void throwSomething() throws Exception {
+        throw new Exception("It's not safe to call me");
+    }
 }

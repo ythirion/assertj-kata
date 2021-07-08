@@ -32,6 +32,12 @@ class TolkienCharactersTest {
     }
 
     @Test
+    void exceptions() {
+        // assert that calling throwSomething will throw an exception with a message containing not safe
+        //throw Exception("boom!");
+    }
+
+    @Test
     void collections() {
         // all elements must satisfy the given assertions : every hobbits have race hobbit and name is not Sauron
 
